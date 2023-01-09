@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+
+
+
+:root {
+    --hand-letter: 'Sriracha', cursive;
+    --title-font: 'Passion One', cursive;
+}
+
+* {
+    margin: 0%;
+    border: 0%;
+}
+
+header {
+    display:flex;
+    min-height: 180px;
+    max-height: 400px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1 {
+    
+    
+    font-family: var(--title-font);
+    font-size: 9vw;
+    line-height: 3.5vw;
+    
+}
+
+p.regular-font {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+
+section.handwritten {
+    font-family: var(--hand-letter);
+    font-size: 3.5vw;
+    padding: 44px 0px 44px 30px;
+}
+
+section#bg-paralax-1 {
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+section#bg-paralax-2 {
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+p.paralax-text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 42vw;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
