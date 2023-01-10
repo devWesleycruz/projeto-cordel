@@ -13,6 +13,10 @@
     border: 0%;
 }
 
+ a {
+    color: white;
+ }
+
 header {
     display:flex;
     min-height: 180px;
@@ -22,20 +26,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
    
 }
 
 h1 {
-    
-    
     font-family: var(--title-font);
     font-size: 9vw;
     line-height: 3.5vw;
+    font-weight: 200;
     
 }
 
 p.regular-font {
-    padding-top: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
@@ -73,6 +76,9 @@ p.paralax-text {
 footer {
     background-color: black;
     color: white;
+    padding: 20px;
 }
+
+
 
 
